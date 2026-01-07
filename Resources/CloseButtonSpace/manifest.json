@@ -1,0 +1,17 @@
+{
+	"format_version":2,
+	"header":{
+		"name":"RAcoui10R",
+		"description":"Close Button Space v1.1.R\n設定のボタンの間隔を無くします。\n天乃涼介 X@Tenby07",
+		"uuid":"ed436e0a-7ae4-433b-85b7-b7b9d5965e77",
+		"version":[1,1,0],
+		"min_engine_version":[1,21,0]
+	},
+	"modules": [
+		{
+			"type":"resources",
+			"uuid":"3679c25a-ab43-409d-815b-66a348b90ba5",
+			"version":[1,0,0]
+		}
+	]
+}

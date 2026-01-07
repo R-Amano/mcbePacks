@@ -1,0 +1,5 @@
+{
+  "namespace": "settings",
+  "selector_stack_panel":{"$spatialPatternsPadding":["100%",0]},
+  "selector_stack_panel/controls_and_settings_selector_pane":{"$spatialPatternsPadding":["100%",0]}
+}
