@@ -1,0 +1,17 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "RAchui10R",
+		"description": "Chat Tabs UI v1.0.R\nチャットにTabキーと履歴参照キーを追加します。\n天乃涼介 X@Tenby07",
+		"uuid": "2a8caacf-bb81-4988-b6cd-e3959f5e997c",
+		"version": [1,0,0],
+		"min_engine_version": [1,16,0]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "8e41260e-c87a-4467-9a17-3bef033d1863",
+			"version": [1,0,0]
+		}
+	]
+}
