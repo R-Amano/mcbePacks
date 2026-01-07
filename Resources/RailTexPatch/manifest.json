@@ -1,0 +1,54 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "RArtpa10R",
+		"description": "Rail Tex Patch v1.0.R\n天乃涼介 X@Tenby07\nパワードレールを通常の線路、レッドストーンブロックを任意のブロックのテクスチャに変更できます。",
+		"uuid": "9506a00e-c91e-40f2-840b-ecaa536a00ca",
+		"version": [1,0,0],
+		"min_engine_version": [1,16,0]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "80c7cdee-aca0-4db6-bdca-db34ffddfcc6",
+			"version": [1,0,0]
+		}
+	],
+	"subpacks":[
+		{
+			"folder_name":"custom",
+				"name":"レッドストーンブロック: カスタム",
+				"memory_tier":0
+		},
+		{
+			"folder_name":"5",
+				"name":"レッドストーンブロック: トウヒの木材",
+				"memory_tier":1
+		},
+		{
+			"folder_name":"2",
+				"name":"レッドストーンブロック: 丸石",
+				"memory_tier":2
+		},
+		{
+			"folder_name":"3",
+				"name":"レッドストーンブロック: 石",
+				"memory_tier":3
+		},
+		{
+			"folder_name":"4",
+				"name":"レッドストーンブロック: 安山岩",
+				"memory_tier":4
+		},
+		{
+			"folder_name":"1",
+				"name":"レッドストーンブロック: 土",
+				"memory_tier":5
+		},
+		{
+			"folder_name":"6",
+				"name":"レッドストーンブロック: 砂利",
+				"memory_tier":6
+		}
+	]
+}

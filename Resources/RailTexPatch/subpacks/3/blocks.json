@@ -1,0 +1,15 @@
+{
+   "golden_rail" : {
+      "sound" : "metal",
+      "textures" : {
+         "down" : "rail_normal",
+         "side" : "rail_normal",
+         "up" : "rail_normal"
+      }
+   },
+   "redstone_block" :
+    {
+      "sound" : "stone",
+      "textures" : "stone"
+   }
+}
