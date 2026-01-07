@@ -1,0 +1,35 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "RAron10R",
+		"description": "Red Trident v1.0.R\nトライデント・盾を紅き槍に変更します。\n天乃涼介 X@Tenby07",
+		"uuid": "eee60aa6-0a99-4b60-ac4b-461858a31c41",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "afd2ce61-87b7-486b-aea5-2b7a2a43dad3",
+			"version": [1, 0, 0]
+		}
+	],
+	"subpacks":[
+		{
+			"folder_name":"1",
+				"name":"  トライデント:カシウス / 盾:ロンギヌス",
+				"memory_tier":0
+		},
+		{
+			"folder_name":"2",
+				"name":"  トライデント:ロンギヌス / 盾:カシウス",
+				"memory_tier":1
+		}
+	],
+	"settings": [
+    {
+      "type": "label",
+      "text": "ロンギヌスとカシウスをトライデント、盾のどちらに当てるかを設定します。"
+    }
+	]
+}
