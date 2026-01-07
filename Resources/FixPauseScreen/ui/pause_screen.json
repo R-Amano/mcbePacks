@@ -1,0 +1,78 @@
+{
+  "namespace":"pause",
+    "pause_screen_content": {
+    "controls": [
+      {
+        "rabg@common.screen_background":{
+          "size":["120%","120%"],
+          "alpha":0.7,
+          "layer":0
+        }
+      },
+      { "pause_screen_main_panels@pause.pause_screen_main_panels": {} },
+      {
+        "skin_panel@pause.skin_panel": {
+          "layer": 1,
+          "anchor_from":"center",
+          "anchor_to":"center",
+          "offset": [10,0]
+        }
+      },
+      { "gamepad_helpers@pause.gamepad_helpers": {} },
+      { "keyboard_helpers@pause.keyboard_helpers": {} }
+    ]
+  },
+  "skin_viewer_panel/paper_doll_panel": {
+    "size": [ "60%", "60% - 10px" ]
+  },
+  "left_buttons_panel":{
+    "$panel_size|default":["50%","100%"],
+    "alpha":0,
+    "variables":[
+      {
+        "requires":"$is_big_screen",
+        "$panel_size":["50%","100%"]
+      }
+    ]
+  },
+  "pause_screen_main_panels":{
+    "size": ["100%","100%"],
+    "controls": [
+      {"menu@pause.left_buttons_panel":{}},
+      {
+        "raair@pause.filler_panel":{
+          "size":["50% - 150px",10]
+        }
+      },
+      {"info_panel@pause.info_panel":{}}
+    ]
+  },
+  "info_panel_background":{
+    "size":["100%","100%"],
+    "offset":[0,0],
+    "anchor_from":"top_right",
+    "anchor_to":"top_right"
+  },
+  "info_panel":{
+    "size":[150,"100%"],
+    "anchor_from":"right_middle",
+    "anchor_to":"right_middle",
+    "ignored": false,
+    "controls": [
+      {"info_panel_background@pause.info_panel_background":{}},
+      {"info_panel_list@pause.info_panel_content_list":{}}
+    ]
+  },
+  "menu_background":{
+    "offset":[0,0]
+  },
+  "menu_the_rest_panel":{
+    "$panel_size|default": [ "70%", "70%" ],
+    "variables": [
+      {
+        "requires": "$is_big_screen",
+        "$panel_size": [ "70%", "70%" ]
+      }
+    ]
+  }
+}

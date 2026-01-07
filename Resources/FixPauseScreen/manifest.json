@@ -1,0 +1,17 @@
+{
+	"format_version":2,
+	"header":{
+		"name":"RAfui12R",
+		"description":"Fix Pause Screen v1.2.R\nポーズ画面を元に戻します。統合版1.21.120未満で使用しないでください。\n天乃涼介 X@Tenby07",
+		"uuid":"67d7561e-271b-4496-a6c1-0ac113c54ec2",
+		"version":[1,2,0],
+		"min_engine_version":[1,21,0]
+	},
+	"modules": [
+		{
+			"type":"resources",
+			"uuid":"6edefa97-51df-4a8a-952d-942635dc2d18",
+			"version":[1,0,0]
+		}
+	]
+}
