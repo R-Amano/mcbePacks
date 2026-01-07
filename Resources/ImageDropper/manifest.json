@@ -1,0 +1,49 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "RAimdo10R",
+		"description": "ImageDropper v1.0.R\nby Ryosuke Amano",
+		"uuid": "374d4374-9d51-4ed7-8eef-b3ae51f6e9b2",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "a3874ce7-3a70-45b6-b595-bfa0b8059c50",
+			"version": [1, 0, 0]
+		}
+	],
+	"subpacks":[
+		{
+			"folder_name":"custom",
+				"name":"パーティクルサイズ: カスタム",
+				"memory_tier":0
+		},
+		{
+			"folder_name":"r25",
+				"name":"パーティクルサイズ: 半径2.5ブロック",
+				"memory_tier":1
+		},
+		{
+			"folder_name":"r20",
+				"name":"パーティクルサイズ: 半径2ブロック",
+				"memory_tier":2
+		},
+		{
+			"folder_name":"r15",
+				"name":"パーティクルサイズ: 半径1.5ブロック",
+				"memory_tier":3
+		},
+		{
+			"folder_name":"r10",
+				"name":"パーティクルサイズ: 半径1ブロック",
+				"memory_tier":4
+		},
+		{
+			"folder_name":"r05",
+				"name":"パーティクルサイズ: 半径0.5ブロック (default)",
+				"memory_tier":5
+		}
+	]
+}
