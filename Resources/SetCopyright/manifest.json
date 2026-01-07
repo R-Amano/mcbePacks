@@ -1,0 +1,18 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "RAcori10R",
+		"description": "Set Copyright v1.0.R\n天乃涼介 X@Tenby07\nHUDの非表示画面で画面端にコピーライトを表示させられます。\n画像編集の手間を省けます。\n必ずreadmeをお読みの上、設定をして御利用下さい。",
+		"uuid": "ca862b40-9417-41c8-ad16-b3762b125549",
+		"version": [1,0,0],
+		"min_engine_version": [1,16,0],
+		"pack_scope":"global"
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "ce60f711-f17d-4341-9b9d-8704a7c3749c",
+			"version": [1,0,0]
+		}
+	]
+}

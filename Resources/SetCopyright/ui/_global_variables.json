@@ -1,0 +1,13 @@
+{
+  "$RA_icon_size": [50,50],  //アイコンサイズ。[縦,横]。デフォルト:[50,50]
+  "$RA_icon_alpha": 0.5,     //アイコン透明度。0(透明)～1(不透明)。デフォルト:0.5
+
+  "$RA_copyright_text": "§bset Copyright by Ryosuke Amano" //コピーライトの文字。
+
+  ////////sample////////
+  //
+  //  Photo by <name>
+  //  (c) <name>
+  //  転載禁止 (c) <name>
+  //  X(Twitter) @<snsID>
+}
