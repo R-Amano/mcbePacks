@@ -1,0 +1,51 @@
+{
+  "namespace": "hud",
+  "RA_ive": {
+    "type": "panel",
+    "controls": [
+      {
+        "ra_imag":{
+          "type": "image",
+          "anchor_to": "bottom_left",
+          "anchor_from": "bottom_left",
+          "texture":"ui/ca",
+          "alpha": "$RA_icon_alpha",
+          "size": "$RA_icon_size",
+          "offset": [ 10, -1 ]
+        }
+      },
+      {
+        "ra_msg": {
+           "type": "label",
+           "anchor_to": "top_right",
+           "anchor_from": "top_right",
+           "text": "RA.liveMessage",
+           "max_size": [ "30%", "100%" ],
+           "offset": [ -1, 30 ],
+           "controls": [
+            {
+              "msg_background": {
+                "type": "image",
+                "texture": "textures/ui/Black",
+                "layer": -1,
+                "alpha": 0.6,
+                "size": [ "100%+10px", "100%+10px" ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "hud_content": {
+    "modifications":[
+      {
+        "array_name":"controls",
+        "operation":"insert_front",
+        "value":[
+          { "RA_ive@RA_ive": {} }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "RAive10R",
+		"description": "RAive UI v1.0.R\nby Ryosuke Amano",
+		"uuid": "42fc3757-dfcb-4bf7-89ad-96023fc01f24",
+		"version": [1,0,0],
+		"min_engine_version": [1,16,0],
+		"pack_scope":"global"
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "6f3c8754-d0ae-4796-8da9-d353798df296",
+			"version": [1,0,0]
+		}
+	],
+	"subpacks":[
+		{
+			"folder_name":"custom",
+				"name":"カスタム",
+				"memory_tier":0
+		},
+		{
+			"folder_name":"2",
+				"name":"バナー無し",
+				"memory_tier":1
+		},
+		{
+			"folder_name":"1",
+				"name":"バナー有り",
+				"memory_tier":2
+		}
+	]
+}
