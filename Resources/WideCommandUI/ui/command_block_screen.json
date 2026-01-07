@@ -1,0 +1,33 @@
+{
+  "right_scroll_panel_content/command_block_commands_panel/centering_panel1/command_block_commands_panel": {
+    "size": [ "100% - 4px", 100 ]
+  },
+  "right_scroll_panel_content/command_block_commands_panel/centering_panel1/command_block_commands_panel/offset/command_block_commands_text": {
+    "size": [ "100%", 100 ]
+  },
+  "right_scroll_panel_content/self_label":{"ignored": true},
+  "right_scroll_panel_content/nearest_player_label":{"ignored": true},
+  "right_scroll_panel_content/random_player_label":{"ignored": true},
+  "right_scroll_panel_content/all_players_label":{"ignored": true},
+  "right_scroll_panel_content/all_entities_label":{"ignored": true},
+  "right_scroll_panel_content/command_block_previous_output_panel/command_output_text_centering_panel/command_output_text":{
+    "anchor_from": "left_middle",
+    "anchor_to": "left_middle",
+    "size": [ "100% - 64px", 40 ],
+    "offset": ["2px",0]
+  },
+  "divider_content/left_side": {
+    "size": [ "20% - 8px", "100% - 31px" ]
+  },
+  "divider_content/right_side": {
+    "size": [ "80% - 13px", "100% - 31px" ],
+    "offset": [ "20% + 5px", 23 ]
+  },
+  "command_block_screen_content": {
+    "size": ["100%","100%"],
+    "max_size": ["100%","100%"]
+  },
+  "command_block_screen_content/background_divider": {
+    "$divider_offset": [ "20%", "22px" ]
+  }
+}
