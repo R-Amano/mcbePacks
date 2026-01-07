@@ -1,0 +1,17 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "RAbesUI10R",
+		"description": "Best D-Pad 1.0.R\n僕たちのD-Pad リソースパック\nMade by 天乃涼介 X@Tenby07",
+		"uuid": "5767ec50-94b8-4a21-8803-1d14c8ce63f3",
+		"version": [1,0,0],
+		"min_engine_version": [1,16,0]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "fcb9a0b1-fa1f-4e19-bf92-2f8214d02e10",
+			"version": [1,0,0]
+		}
+	]
+}
