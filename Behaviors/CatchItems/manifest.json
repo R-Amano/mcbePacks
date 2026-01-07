@@ -1,0 +1,17 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "RAcait10B",
+		"description": "Catch Items Behavior\n(c) 天乃涼介 at MIT LICENSE",
+		"uuid": "95195a70-43b4-421e-b161-74daf1def792",
+		"version": [1,0,0],
+		"min_engine_version": [1,20,0]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "b84546f0-6be1-4f30-aad9-15bc0527357a",
+			"version": [1,0,0]
+		}
+	]
+}
