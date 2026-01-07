@@ -1,0 +1,29 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "RAhiar10R",
+		"description": "Hide Armor v1.0.R\n天乃涼介 X@Tenby07\nプレイヤーの防具を非表示にします。",
+		"uuid": "292a9c72-b83f-439a-818d-66d07a89bde4",
+		"version": [1,0,0],
+		"min_engine_version": [1,16,0]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "124ecc7d-e8a6-4fdc-b8c7-a02ba7ce4c3a",
+			"version": [1,0,0]
+		}
+	],
+	"subpacks":[
+		{
+			"folder_name":"ra0",
+				"name":"エリトラ: 非表示",
+				"memory_tier":0
+		},
+		{
+			"folder_name":"ra1",
+				"name":"エリトラ: 表示",
+				"memory_tier":1
+		}
+	]
+}
